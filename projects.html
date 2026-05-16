@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View the portfolio of Muheto Hodal, featuring Python development projects and web applications.">
+    <title>My Projects | Muheto Hodal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html"><img src="./assets/logo-dark.png" alt="Logo"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html" class="active">Projects</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <button id="hire_me">Hire Me!</button>
+    </header>
+    <div class="nav-overlay"></div>
+
+    <main>
+        <section id="projects_section">
+            <div class="header_of_section">
+                <h3 class="small_general_heading">Portfolio</h3>
+                <h1 class="big_general_heading">My Projects</h1>
+                <p>A showcase of some of my best work in Python development and web design.</p>
+            </div>
+            
+            <div class="cards_of_blog_container" style="margin-top: 40px;">
+                <div class="blog_card">
+                    <img src="./assets/blogs/1.jpg" alt="Project 1">
+                    <div>
+                        <h1 class="heading_1">Enterprise Python Automation</h1>
+                        <p style="padding: 10px 20px; color: var(--text-color);">Automated complex business workflows reducing manual labor by 70%.</p>
+                        <div class="blog_footer_content_container">
+                            <div id="right-content" style="width: 100%; text-align: center;">
+                                <a href="./project-1.html" class="read_more_btn" style="text-decoration: none; display: inline-block;">View Project <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_card">
+                    <img src="./assets/blogs/2.jpg" alt="Project 2">
+                    <div>
+                        <h1 class="heading_1">E-commerce Backend API</h1>
+                        <p style="padding: 10px 20px; color: var(--text-color);">High-performance REST API built with Django and PostgreSQL.</p>
+                        <div class="blog_footer_content_container">
+                            <div id="right-content" style="width: 100%; text-align: center;">
+                                <a href="./project-2.html" class="read_more_btn" style="text-decoration: none; display: inline-block;">View Project <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_card">
+                    <img src="./assets/blogs/3.jpg" alt="Project 3">
+                    <div>
+                        <h1 class="heading_1">Data Visualization Dashboard</h1>
+                        <p style="padding: 10px 20px; color: var(--text-color);">Real-time data monitoring system using Flask and D3.js.</p>
+                        <div class="blog_footer_content_container">
+                            <div id="right-content" style="width: 100%; text-align: center;">
+                                <a href="./project-3.html" class="read_more_btn" style="text-decoration: none; display: inline-block;">View Project <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="top_section">
+            <div id="left_footer_container">
+                <div>
+                    <div>
+                        <img src="./assets/logo-dark.png" alt="Footer Logo" class="logo">
+                        <p>Empowering businesses through scalable Python solutions and cutting-edge web development. Let's build something amazing together.</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="right_footer_container">
+                <div>
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./services.html">Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Information</h2>
+                    <ul>
+                        <li><a href="./resume.html">Resume</a></li>
+                        <li><a href="#">Client Say</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>More Info</h2>
+                    <ul>
+                        <li><a href="./blogs.html">Blogs</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="bottom_section">
+            <p>&copy; 2026 Muheto Hodal. All Rights Reserved.</p>
+            <p>Terms & Condition</p>
+        </section>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

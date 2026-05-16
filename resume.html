@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional resume of Muheto Hodal, highlighting experience in Python development and technical skills.">
+    <title>Resume | Muheto Hodal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html"><img src="./assets/logo-dark.png" alt="Logo"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./resume.html" class="active">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <button id="hire_me">Hire Me!</button>
+    </header>
+    <div class="nav-overlay"></div>
+
+    <main>
+        <section id="resume_header_section">
+            <div class="header_of_section">
+                <h3 class="small_general_heading">Experience</h3>
+                <h1 class="big_general_heading">Professional Resume</h1>
+                <p>Detailed overview of my professional journey and technical expertise.</p>
+            </div>
+        </section>
+
+        <section id="resume_content" style="padding: 40px 10%; color: var(--text-color);">
+            <div class="experience_section_grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="experience_card" style="width: 100%; margin: 0;">
+                    <div><img src="./assets/experience/nodejs-icon.svg" alt="Node.js"></div>
+                    <div>
+                        <h4>Senior Python Developer</h4>
+                        <p>2021 - Present</p>
+                        <p>Leading the development of scalable microservices and data processing pipelines.</p>
+                    </div>
+                </div>
+                <div class="experience_card" style="width: 100%; margin: 0;">
+                    <div><img src="./assets/experience/react.svg" alt="React"></div>
+                    <div>
+                        <h4>Full Stack Developer</h4>
+                        <p>2018 - 2021</p>
+                        <p>Developed interactive user interfaces and integrated complex backend APIs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 50px; line-height: 1.8;">
+                <h2>Summary</h2>
+                <p>Experienced software engineer with over 6 years of expertise in Python and web technologies. Proven track record of delivering high-quality solutions for complex business challenges.</p>
+                <p>Expert in backend development, API integration, and performance optimization.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="top_section">
+            <div id="left_footer_container">
+                <div>
+                    <div>
+                        <img src="./assets/logo-dark.png" alt="Footer Logo" class="logo">
+                        <p>Empowering businesses through scalable Python solutions and cutting-edge web development. Let's build something amazing together.</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="right_footer_container">
+                <div>
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./services.html">Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Information</h2>
+                    <ul>
+                        <li><a href="./resume.html">Resume</a></li>
+                        <li><a href="#">Client Say</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>More Info</h2>
+                    <ul>
+                        <li><a href="./blogs.html">Blogs</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="bottom_section">
+            <p>&copy; 2026 Muheto Hodal. All Rights Reserved.</p>
+            <p>Terms & Condition</p>
+        </section>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
