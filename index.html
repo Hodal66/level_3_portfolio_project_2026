@@ -38,7 +38,19 @@
             </div>
             <div id="hero_content_container">
                 <h3>Hi, I'm Muheto Hodal</h3>
-                <h1 class="big_heading">I'm a Python Developer</h1>
+                <div class="typing-container" style="display: inline-block; border-right: 3px solid var(--clr-primary); overflow: hidden; white-space: nowrap; animation: typing 3s steps(30, end) infinite alternate, blink-caret 0.75s step-end infinite;">
+                    <h1 class="big_heading" style="margin: 0; padding-right: 5px;">I'm a Python Developer</h1>
+                </div>
+                <style>
+                    @keyframes typing {
+                        from { width: 0 }
+                        to { width: 100% }
+                    }
+                    @keyframes blink-caret {
+                        from, to { border-color: transparent }
+                        50% { border-color: var(--clr-primary); }
+                    }
+                </style>
                 <button>Download CV</button>
             </div>
         </section>
